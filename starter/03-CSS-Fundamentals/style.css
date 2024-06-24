@@ -1,0 +1,40 @@
+h1, h2, h3, h4, p, li {
+    /* 指定字体 为 无衬线 */
+    font-family: serif;
+}
+
+h1 {
+    /* 指定字体颜色 */
+    color: blue;
+    /* 指定字体大小 */
+    font-size: 26px;
+    /* 指定字体转换 转换为大写字母 */
+    text-transform: uppercase;
+    /* 指定字体样式 斜体 */
+    font-style: italic;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    /* 指定文本对齐方式 居中 相对于父元素 */
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    /* 指定行高 字体大小的1.5倍 */
+    line-height: 1.5;
+}
+
+li {
+    font-size: 20px;
+}
